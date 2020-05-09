@@ -71,4 +71,3 @@ export class StoreComponent {
     return text;
   }
 
-}
