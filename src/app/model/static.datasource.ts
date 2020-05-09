@@ -5,7 +5,7 @@ import { Order } from './order.model'
 
 @Injectable()
 export class StaticDataSource {
-  private products: Product[] = [
+  private products: any = [
     new Product(3, 'Football Shoes', 'Football', 'Football Shoes (Football)', 120),
     new Product(5, 'Swimming Goggles', 'Swimming', 'Swimming Goggles (Swimming)', 10),
     new Product(6, 'Swimming Costume', 'Swimming', 'Swimming Costume (Swimming)', 30),
