@@ -15,6 +15,6 @@ const routing = RouterModule.forChild([
 @NgModule({
     imports: [CommonModule, FormsModule, routing],
     declarations: [AuthComponent, AdminComponent],
-    providers: [AuthGuard],
+    // providers: [AuthGuard],
 })
 export class AdminModule {}
